@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context sessionCookieName="JESSIONID" sessionCookiePath="/" crossContext="true" reloadable="true" debug="5">
+  <ResourceLink auth="Container"
+     name="jdbc/MyDatasource"
+     global="jdbc/MyDatasource"
+     type="javax.sql.DataSource"/>
+
+<!--   <Realm className="org.apache.catalina.realm.MemoryRealm"/>
+ -->
+ </Context>
