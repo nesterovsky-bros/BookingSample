@@ -32,7 +32,7 @@ public class WideWorldImporters
           LatestRecordedPopulation,
           LastEditedBy,
           ValidFrom,
-          ValidTo      
+          ValidTo
         from 
           Application.Cities
         where
