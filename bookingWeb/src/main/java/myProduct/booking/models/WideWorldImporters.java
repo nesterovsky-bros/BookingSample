@@ -91,6 +91,24 @@ public class WideWorldImporters
         fetch first ? rows only
         """);
       
+      if (search == null)
+      {
+        search = "%";
+      }
+      else
+      {
+        search = search.trim();
+        
+        if (search.length() == 0)
+        {
+          search = "%";
+        }
+        else if (!search.contains("%"))
+        {
+          search += "%";
+        }
+        // No more cases.      }
+      
       setString(statement, 1, search);
       setInt(statement, 2, offset);
       setInt(statement, 3, fetch);
